@@ -12,20 +12,16 @@
 <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
 <body>
-<x-app-layout>
-<x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Calendar') }}
-        </h2>
-        </x-slot>
-
-    <div> <h1> Fette Überschrift für den Calendar </h1> </div>
-  <div class="container">
+<div class="p-4" style="background-color: #E4E4E4">
+  <div class="calendarBox" style="background-color: white; border-radius: 10px">
+  <a href="{{ url('dashboard') }}" style="margin: 10px">back to "Home"</a>
+  <h1 style="margin:10px 0 30px 100px"> Your Calendar </h1>
+      <div class="container">
       <div class="response"></div>
       <div id='calendar'></div>  
+</div>
   </div>
-  
-</x-app-layout>
+</div>  
 </body>
 
 
