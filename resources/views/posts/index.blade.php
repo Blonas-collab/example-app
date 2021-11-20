@@ -1,10 +1,10 @@
 @extends('posts.layout')
  
 @section('content')
-    <div class="row" style="margin-top: 5rem;">
+    <div class="row" style="margin-top: 2rem; margin-bottom: 1rem">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>This is your To-Do-List:</h2>
+                <h1>This is your To-Do-List:</h1>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('posts.create') }}"> Create New Post</a>
