@@ -6,10 +6,13 @@ use App\Http\Controllers\FullCalendarController;
 
 Route::resource('posts', PostController::class);
 
-//fullcalender
 Route::resource('fullcalendar', FullCalendarController::class);
-
-
+Route::get('fullcalendar/index', function (){
+    return view('fullcalendar');
+});
+Route::post('fullcalendar/create', function () {});
+Route::post('fullcalendar/update',function () {});
+Route::post('fullcalendar/delete', function () {});
 
 Route::get('/', function () {
     return view('welcome');
