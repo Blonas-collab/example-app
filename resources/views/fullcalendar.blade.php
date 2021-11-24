@@ -17,9 +17,9 @@
   <a href="{{ url('dashboard') }}" style="margin: 10px">back to "Home"</a>
   <h1 style="margin:10px 0 30px 100px"> Your Calendar </h1>
       <div class="container">
-      <div class="response"></div>
-      <div id='calendar'></div>  
-</div>
+        <div class="response"></div>
+        <div id='calendar'></div>  
+      </div>
   </div>
 </div>  
 </body>
