@@ -15,12 +15,14 @@
 <div class="p-4" style="background-color: #E4E4E4">
   <div class="calendarBox" style="background-color: white; border-radius: 10px">
   <a href="{{ url('dashboard') }}" style="margin: 10px">back to "Home"</a>
+  <button type="button" class="btn btn-dark" onclick="window.print()" style="float:right; margin: 30px 40px 0 0">Print Calendar</button>  
   <h1 style="margin:10px 0 30px 100px"> Your Calendar </h1>
       <div class="container">
         <div class="response"></div>
         <div id='calendar'></div>  
       </div>
   </div>
+  
 </div>  
 </body>
 

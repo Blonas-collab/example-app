@@ -12,7 +12,7 @@
                     Welcome home :D Let's get to work!
                     <div class="dashboardWelcome">
                         <br><br><br>
-                        ↑ Check your To-Do-List and calender ↑
+                        ↑ Check your To-Do-List and Calendar ↑
                        
                     </div>
                 </div>

@@ -7,7 +7,7 @@
                 <h1>This is your To-Do-List:</h1>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('posts.create') }}"> Create New Post</a>
+                <a class="btn btn-success" href="{{ route('posts.create') }}"> Create New To-Do</a>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
    
     <table class="table table-bordered">
         <tr>
-            <th>No</th>
+            <th>No</th> 
             <th>To Do</th>
             <th>Details</th>
             <th width="280px">Action</th>
